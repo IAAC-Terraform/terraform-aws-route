@@ -18,5 +18,4 @@ variable "count" {}
 
 variable "gateway_route" {
   type = "list"
-  default = false
 }
