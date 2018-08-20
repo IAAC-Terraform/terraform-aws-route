@@ -22,4 +22,5 @@ variable "gateway_route" {
 
 variable "gateway_id" {
   type = "list"
+  default = []
 }
