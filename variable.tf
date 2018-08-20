@@ -19,3 +19,7 @@ variable "count" {}
 variable "gateway_route" {
   type = "list"
 }
+
+variable "gateway_id" {
+  type = "list"
+}
