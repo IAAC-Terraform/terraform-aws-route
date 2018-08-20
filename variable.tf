@@ -17,7 +17,7 @@ variable "create_vpc" {}
 variable "count" {}
 
 variable "gateway_route" {
-  type = "list"
+  default = false
 }
 
 variable "gateway_id" {
